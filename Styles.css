@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Press Start 2P";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+header {
+    background-color: #5300C8;
+    padding: 30px;
+    border-bottom: 2px solid #5300C8;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+section {
+    flex: 1;
+    margin: 10px;
+}
+
+#agregar-producto, #mis-productos {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#agregar-producto h2, #mis-productos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="number"], form input[type="file"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #03318C;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+form .buttons {
+    justify-content: space-around
+}
+
+form .btn {
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+form .Azul {
+    background-color: #03318C;
+    color: white;
+}
+
+form .Blanco {
+    background-color: white;
+    color: black;
+    border: 1px solid #03318C;
+}
+
+#lista-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #0c0c0c;
+    border-radius: 15px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: #5300C8;
+}
+
+.producto img {
+    max-width: 100%;
+    border-bottom: 1px solid #5300C8;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.producto strong {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.producto span {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.producto button.eliminar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+h1,
+p {
+    color: rgb(255, 255, 255);
+    border:  none;
+    outline: none;
+}
+
+footer {
+    background-color: #5300C8;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Arial', Courier, monospace;
+}
+
+
+/*Sección id*/
+
+section.id{
+
+}
+/* Campo para que nuestra pagina se resposiva y que pueda ser visualizada en otras medidas/
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /*section*/
+    }
+    
+/*Mobile*/
+@media (min-width: 425px) {
+    
+    /*section*/
+    }
+    
